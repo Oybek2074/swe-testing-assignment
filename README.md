@@ -68,7 +68,11 @@ All tests must pass successfully.
 
 ## Testing Framework Comparison
 
-Two Python testing frameworks were considered for this project:
+Two popular Python testing frameworks were considered for this project: `unittest` and `pytest`.
+
+The `unittest` framework is included in Python’s standard library and follows a class-based structure similar to testing frameworks in other languages. It is reliable and widely used, but it typically requires more boilerplate code, such as defining test classes and setup methods. For small projects, this can make test files longer and slightly harder to read.
+
+On the other hand, `pytest` provides a simpler and more modern approach to testing. It allows writing tests as plain functions, uses clean and readable assertions, and offers powerful built-in features such as exception handling and detailed failure reporting. For this project, where clarity and simplicity were priorities, `pytest` was selected because it reduces boilerplate code, improves readability, and allows faster development of both unit and integration tests.
 
 ### unittest
 - Built into the Python standard library
